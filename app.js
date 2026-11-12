@@ -42,7 +42,7 @@
       qualAuto: 'تلقائي (الأعلى)', qLow: '— الأقل', qHigh: '— الأعلى', qTitle: 'الجودة (من الأقل إلى الأعلى)', qDone: 'تم تغيير الجودة', qFail: 'تعذر قراءة الجودات من السيرفر',
       noAudio: 'لا توجد مسارات صوتية أخرى في هذا البث', track: 'مسار', audioDone: 'تم تغيير المسار الصوتي', audioTitle: 'المسار الصوتي / المعلق',
       btnQuality: 'الجودة', btnAudio: 'الصوت / المعلق', rew: 'رجوع 10 ثوان', fwd: 'تقديم 30 ثانية', stop: 'إيقاف',
-      exitQ: 'هل تريد الخروج من التطبيق؟', yes: 'نعم', no: 'لا', offline: 'لا يوجد اتصال بالإنترنت', online: 'عاد الاتصال بالإنترنت', back: 'رجوع', settings: 'الإعدادات', fav: 'المفضلة', noFav: 'المفضلة فاضية. افتح أي عنصر واضغط زر القلب لإضافته', favAdd: 'إضافة للمفضلة', favRem: 'إزالة من المفضلة', favAdded: 'تمت الإضافة للمفضلة', favRemoved: 'تمت الإزالة من المفضلة', play: 'تشغيل', setLang: 'اللغة', setTime: 'الوقت وصيغة العرض', tf24: '24 ساعة', tf12: '12 ساعة', timeSync: 'ضبط الوقت تلقائياً', timeReset: 'وقت التلفزيون', timeSyncing: 'جاري مزامنة الوقت مع الإنترنت…', timeSynced: 'تم ضبط الوقت الحالي بنجاح', timeSyncFail: 'تعذر ضبط الوقت، تأكد من اتصال الإنترنت', timeCur: 'الوقت الحالي: ', am: 'ص', pm: 'م', setColor: 'لون شريط السرعة', c_white: 'أبيض', c_black: 'أسود', c_yellow: 'أصفر', c_green: 'أخضر', c_red: 'أحمر', c_blue: 'أزرق', c_orange: 'برتقالي', setSound: 'صوت التنقل', setTest: 'اختبار السرعة', startTest: 'ابدأ الاختبار', testing: 'جاري الاختبار…', testFail: 'تعذر إجراء الاختبار، تأكد من الإنترنت', ping: 'التأخير', download: 'التحميل', upload: 'الرفع', cast: 'الأبطال', director: 'المخرج', nowOn: 'الآن', nextOn: 'التالي', setUpd: 'التحديث', version: 'الإصدار', updCheck: 'تحقق من التحديث', updUrl: 'رابط التحديث', updReset: 'العودة للنسخة الأصلية', save: 'حفظ', updNoUrl: 'اكتب رابط التحديث الأول', updChecking: 'جاري البحث عن تحديث…', updLatest: 'أنت على آخر إصدار', updDone: 'تم تنزيل التحديث… جاري إعادة التشغيل', updReady: 'تحديث جديد جاهز، أعد فتح التطبيق لتفعيله', updFail: 'تعذر التحديث، راجع الرابط والإنترنت', updResetDone: 'تم الرجوع للنسخة الأصلية… جاري إعادة التشغيل', updUrlSaved: 'تم حفظ الرابط', updOff: 'التحديث عن بُعد غير مفعّل في هذه النسخة'
+      exitQ: 'هل تريد الخروج من التطبيق؟', yes: 'نعم', no: 'لا', offline: 'لا يوجد اتصال بالإنترنت', online: 'عاد الاتصال بالإنترنت', back: 'رجوع', settings: 'الإعدادات', fav: 'المفضلة', noFav: 'المفضلة فاضية. افتح أي عنصر واضغط زر القلب لإضافته', favAdd: 'إضافة للمفضلة', favRem: 'إزالة من المفضلة', favAdded: 'تمت الإضافة للمفضلة', favRemoved: 'تمت الإزالة من المفضلة', play: 'تشغيل', setLang: 'اللغة', setTime: 'الوقت وصيغة العرض', tf24: '24 ساعة', tf12: '12 ساعة', timeSync: 'ضبط الوقت تلقائياً', timeReset: 'وقت التلفزيون', timeSyncing: 'جاري مزامنة الوقت مع الإنترنت…', timeSynced: 'تم ضبط الوقت الحالي بنجاح', timeSyncFail: 'تعذر ضبط الوقت، تأكد من اتصال الإنترنت', timeCur: 'الوقت الحالي: ', am: 'ص', pm: 'م', setColor: 'لون شريط السرعة', c_white: 'أبيض', c_black: 'أسود', c_yellow: 'أصفر', c_green: 'أخضر', c_red: 'أحمر', c_blue: 'أزرق', c_orange: 'برتقالي', setSound: 'صوت التنقل', setTest: 'اختبار السرعة', startTest: 'ابدأ الاختبار', testing: 'جاري الاختبار…', testFail: 'تعذر إجراء الاختبار، تأكد من الإنترنت', ping: 'التأخير', download: 'التحميل', upload: 'الرفع', cast: 'الأبطال', director: 'المخرج', nowOn: 'الآن', nextOn: 'التالي', setUpd: 'التحديث', version: 'الإصدار', updCheck: 'تحقق من التحديث', updReset: 'العودة للنسخة الأصلية', updChecking: 'جاري البحث عن تحديث…', updLatest: 'أنت على آخر إصدار', updDone: 'تم تنزيل التحديث… جاري إعادة التشغيل', updReady: 'تحديث جديد جاهز، أعد فتح التطبيق لتفعيله', updFail: 'تعذر التحديث، تأكد من اتصال الإنترنت', updResetDone: 'تم الرجوع للنسخة الأصلية… جاري إعادة التشغيل', updOff: 'التحديث عن بُعد غير مفعّل في هذه النسخة'
     },
     en: {
       name_ph: 'Account name (e.g. Home)', host_ph: 'Server URL or full get.php link', user_ph: 'Username', pass_ph: 'Password',
@@ -59,7 +59,7 @@
       qualAuto: 'Auto (highest)', qLow: '— Lowest', qHigh: '— Highest', qTitle: 'Quality (lowest to highest)', qDone: 'Quality changed', qFail: 'Could not read qualities from the server',
       noAudio: 'No other audio tracks in this stream', track: 'Track', audioDone: 'Audio track changed', audioTitle: 'Audio track / commentary',
       btnQuality: 'Quality', btnAudio: 'Audio / Commentary', rew: 'Back 10 seconds', fwd: 'Forward 30 seconds', stop: 'Stop',
-      exitQ: 'Do you want to exit the app?', yes: 'Yes', no: 'No', offline: 'No internet connection', online: 'Internet connection restored', back: 'Back', settings: 'Settings', fav: 'Favorites', noFav: 'No favorites yet. Open any item and press the heart to add it', favAdd: 'Add to favorites', favRem: 'Remove from favorites', favAdded: 'Added to favorites', favRemoved: 'Removed from favorites', play: 'Play', setLang: 'Language', setTime: 'Time & format', tf24: '24-hour', tf12: '12-hour', timeSync: 'Sync time automatically', timeReset: 'Use TV time', timeSyncing: 'Syncing time with internet…', timeSynced: 'Current time synced successfully', timeSyncFail: 'Time sync failed, check internet connection', timeCur: 'Current time: ', am: 'AM', pm: 'PM', setColor: 'Speed bar colour', c_white: 'White', c_black: 'Black', c_yellow: 'Yellow', c_green: 'Green', c_red: 'Red', c_blue: 'Blue', c_orange: 'Orange', setSound: 'Navigation sound', setTest: 'Speed test', startTest: 'Start test', testing: 'Testing…', testFail: 'Test failed, check your internet connection', ping: 'Latency', download: 'Download', upload: 'Upload', cast: 'Cast', director: 'Director', nowOn: 'Now', nextOn: 'Next', setUpd: 'Updates', version: 'Version', updCheck: 'Check for updates', updUrl: 'Update URL', updReset: 'Back to packaged version', save: 'Save', updNoUrl: 'Enter the update URL first', updChecking: 'Checking for updates…', updLatest: 'You are on the latest version', updDone: 'Update downloaded… restarting', updReady: 'Update ready, reopen the app to apply it', updFail: 'Update failed, check the URL and your connection', updResetDone: 'Reverted to the packaged version… restarting', updUrlSaved: 'URL saved', updOff: 'Remote updates are disabled in this build'
+      exitQ: 'Do you want to exit the app?', yes: 'Yes', no: 'No', offline: 'No internet connection', online: 'Internet connection restored', back: 'Back', settings: 'Settings', fav: 'Favorites', noFav: 'No favorites yet. Open any item and press the heart to add it', favAdd: 'Add to favorites', favRem: 'Remove from favorites', favAdded: 'Added to favorites', favRemoved: 'Removed from favorites', play: 'Play', setLang: 'Language', setTime: 'Time & format', tf24: '24-hour', tf12: '12-hour', timeSync: 'Sync time automatically', timeReset: 'Use TV time', timeSyncing: 'Syncing time with internet…', timeSynced: 'Current time synced successfully', timeSyncFail: 'Time sync failed, check internet connection', timeCur: 'Current time: ', am: 'AM', pm: 'PM', setColor: 'Speed bar colour', c_white: 'White', c_black: 'Black', c_yellow: 'Yellow', c_green: 'Green', c_red: 'Red', c_blue: 'Blue', c_orange: 'Orange', setSound: 'Navigation sound', setTest: 'Speed test', startTest: 'Start test', testing: 'Testing…', testFail: 'Test failed, check your internet connection', ping: 'Latency', download: 'Download', upload: 'Upload', cast: 'Cast', director: 'Director', nowOn: 'Now', nextOn: 'Next', setUpd: 'Updates', version: 'Version', updCheck: 'Check for updates', updReset: 'Back to packaged version', updChecking: 'Checking for updates…', updLatest: 'You are on the latest version', updDone: 'Update downloaded… restarting', updReady: 'Update ready, reopen the app to apply it', updFail: 'Update failed, check your internet connection', updResetDone: 'Reverted to the packaged version… restarting', updOff: 'Remote updates are disabled in this build'
     }
   };
   var LANG = store('elhana.lang') || (/^ar/i.test(navigator.language || '') ? 'ar' : 'en');
@@ -181,7 +181,8 @@
     return 'live';
   }
   function parseM3u(text) {
-    var lines = String(text || '').replace(/^\uFEFF/, '').split(/\r?\n/);
+    var lines = String(text || '').replace(/^﻿/, '').split(/?
+/);
     var out = { live: { cats: [], by: {}, all: [] }, movies: { cats: [], by: {}, all: [] }, series: { cats: [], by: {}, all: [] } };
     var pend = null, grp = '', n = 0;
     for (var i = 0; i < lines.length; i++) {
@@ -423,12 +424,12 @@
     var end = Math.min(state.shown + PAGE, state.list.length), h = '', weekAgo = nowMs() / 1000 - 7 * 86400, fset = favSet();
     for (var i = state.shown; i < end; i++) {
       var s = state.list[i], img = s.stream_icon || s.cover || '', nm = String(s.name || '');
-      var letter = esc(nm.replace(/^[^A-Za-z0-9\u0600-\u06FF]+/, '').charAt(0) || '•');
+      var letter = esc(nm.replace(/^[^A-Za-z0-9؀-ۿ]+/, '').charAt(0) || '•');
       var ty = itemType(s), hrt = fset[favId(s, ty)] ? '<span class="heart">&#9829;</span>' : '', badge = '', nw = '';
       if (ty !== 'live' && s.rating && +s.rating > 0) badge = '<span class="badge">&#9733; ' + (+s.rating).toFixed(1) + '</span>';
       if (+(s.added || s.last_modified) > weekAgo) nw = '<span class="newb">' + tr('newb') + '</span>';
       h += '<button class="f item" data-i="' + i + '"><div class="img"><span class="ph">' + letter + '</span>' +
-        (img ? '<img src="' + esc(img) + '" onerror="this.style.display=\'none\'">' : '') + badge + nw + hrt +
+        (img ? '<img src="' + esc(img) + '" onerror="this.style.display='none'">' : '') + badge + nw + hrt +
         '</div><div class="t">' + esc(nm) + '</div></button>';
     }
     state.shown = end;
@@ -500,7 +501,7 @@
   }
   function setPoster(src, name) {
     var im = $('dImg');
-    $('dPh').textContent = String(name || '').replace(/^[^A-Za-z0-9\u0600-\u06FF]+/, '').charAt(0) || '\u2022';
+    $('dPh').textContent = String(name || '').replace(/^[^A-Za-z0-9؀-ۿ]+/, '').charAt(0) || '•';
     im.style.display = 'none'; im.onload = function () { im.style.display = ''; }; im.onerror = function () { im.style.display = 'none'; };
     im.removeAttribute('src'); if (src) im.src = src;
   }
@@ -527,8 +528,8 @@
     inf = inf || {};
     var meta = [], y = pick(inf, 'releasedate', 'release_date', 'releaseDate', 'year'), g = pick(inf, 'genre'), d = pick(inf, 'duration', 'episode_run_time'), rt = pick(inf, 'rating', 'rating_5based');
     var ym = y.match(/\d{4}/); if (ym) y = ym[0];
-    if (y) meta.push(y); if (g) meta.push(g); if (d) meta.push(d); if (rt) meta.push('\u2605 ' + rt);
-    $('dMeta').textContent = meta.join('  \u00B7  ');
+    if (y) meta.push(y); if (g) meta.push(g); if (d) meta.push(d); if (rt) meta.push('★ ' + rt);
+    $('dMeta').textContent = meta.join('  ·  ');
     $('dPlot').textContent = pick(inf, 'plot', 'description');
     var ex = '', c = pick(inf, 'cast', 'actors'), dr = pick(inf, 'director');
     if (c) ex += '<div>' + tr('cast') + ': ' + esc(c) + '</div>';
@@ -691,4 +692,448 @@
     return new Promise(function (resolve) {
       try {
         var size = 4 * 1024 * 1024, buf = new Uint8Array(size), x = new XMLHttpRequest(), t0 = Date.now(), fin = false;
-        x
+        x.open('POST', 'https://speed.cloudflare.com/__up?r=' + t0, true); x.timeout = 20000;
+        x.setRequestHeader('Content-Type', 'text/plain');
+        x.upload.onload = function () { if (fin) return; fin = true; var dt = (Date.now() - t0) / 1000; resolve(dt > 0.02 ? size * 8 / 1e6 / dt : null); };
+        x.onerror = x.ontimeout = function () { if (!fin) { fin = true; resolve(null); } };
+        x.send(buf);
+      } catch (e) { resolve(null); }
+    });
+  }
+  function runSpeedTest() {
+    if (testing) return; testing = true;
+    var btn = $('btnTest'), res = $('testRes'), out = { ping: null, down: null, up: null };
+    btn.textContent = tr('testing');
+    function show() {
+      res.innerHTML = '<span>' + tr('ping') + ': <b>' + (out.ping == null ? '—' : Math.round(out.ping) + ' ms') + '</b></span>' +
+        '<span>&#9660; ' + tr('download') + ': <b>' + (out.down == null ? '—' : out.down.toFixed(1) + ' Mbps') + '</b></span>' +
+        '<span>&#9650; ' + tr('upload') + ': <b>' + (out.up == null ? '—' : out.up.toFixed(1) + ' Mbps') + '</b></span>';
+    }
+    show();
+    stPing().then(function (p) { out.ping = p; show(); return stDown(function (v) { out.down = v; show(); }); })
+      .then(function (v) { out.down = v; show(); return stUp(); })
+      .then(function (v) { out.up = v; show(); })
+      .then(function () {
+        testing = false; btn.textContent = tr('startTest');
+        if (out.ping == null && out.down == null && out.up == null) res.textContent = tr('testFail');
+      });
+  }
+
+  /* ---------- التحديث من بعيد (مخفي ومؤمّن) ---------- */
+  var DEF_OTA = 'https://alifathy2.github.io/elhana';
+  function cmpVer(a, b) {
+    var x = String(a).split('.'), y = String(b).split('.'), n = Math.max(x.length, y.length);
+    for (var i = 0; i < n; i++) { var p = +x[i] || 0, q = +y[i] || 0; if (p !== q) return p > q ? 1 : -1; }
+    return 0;
+  }
+  function otaBase() {
+    var b = String(window.EH_BASE || store('elhana.otabase') || DEF_OTA).trim().replace(/\/+$/, '');
+    return b || DEF_OTA;
+  }
+  function updMsg(t) { $('updMsg').textContent = t || ''; }
+  function updInfo() {
+    $('updVer').textContent = tr('version') + ': ' + (window.EH_VER || '1.6.2') + (window.EH_OTA ? '  (OTA)' : '');
+  }
+  function checkUpdate(manual) {
+    if (window.EH_ENABLED === false) { if (manual) updMsg(tr('updOff')); return Promise.resolve(); }
+    var base = otaBase();
+    if (manual) updMsg(tr('updChecking'));
+    var ver = null, files = {};
+    return xhr(base + '/version.json?t=' + nowMs(), 15000).then(function (r) {
+      ver = r && r.version;
+      if (!ver) throw new Error('v');
+      if (cmpVer(ver, window.EH_VER || '1.6.2') <= 0) { if (manual) updMsg(tr('updLatest')); return null; }
+      var names = ['index.html', 'style.css', 'app.js'], chain = Promise.resolve();
+      names.forEach(function (n) {
+        chain = chain.then(function () { return xhr(base + '/' + n + '?t=' + nowMs(), 60000, true).then(function (x) { files[n] = x.text; }); });
+      });
+      return chain.then(function () {
+        if (!files['app.js'] || files['app.js'].length < 5000 || !files['style.css'] || files['style.css'].length < 500 || !/<body/i.test(files['index.html'] || '')) throw new Error('bad');
+        store('elhana.ota', { version: ver, index: files['index.html'], css: files['style.css'], js: files['app.js'] });
+        if (manual) { updMsg(tr('updDone')); setTimeout(function () { location.reload(); }, 1200); }
+        else toast(tr('updReady'), 8000);
+      });
+    }).catch(function () { if (manual) updMsg(tr('updFail')); });
+  }
+  function autoUpdate() { if (!playerOpen()) checkUpdate(false); }
+  function resetUpdate() {
+    try { localStorage.removeItem('elhana.ota'); localStorage.removeItem('elhana.otaTry'); } catch (e) {}
+    updMsg(tr('updResetDone')); setTimeout(function () { location.reload(); }, 1200);
+  }
+
+  /* ---------- شاشة الترحيب ---------- */
+  function startSplash() {
+    var sp = $('splash');
+    setTimeout(function () {
+      sp.classList.add('out'); splashOn = false;
+      setTimeout(function () { if (sp.parentNode) sp.parentNode.removeChild(sp); }, 500);
+    }, 2500);
+  }
+
+  /* ---------- المشغل ---------- */
+  var ICO_PLAY = '<svg viewBox="0 0 24 24" width="46" height="46" fill="#fff"><path d="M8 5v14l11-7z"/></svg>';
+  var ICO_PAUSE = '<svg viewBox="0 0 24 24" width="46" height="46" fill="#fff"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
+  var osdTimer = null, msgTimer = null, menu = { open: false, items: [], opener: null };
+
+  function fmt(t) { t = Math.max(0, Math.floor(t || 0)); var h = Math.floor(t / 3600), m = Math.floor(t % 3600 / 60), s = t % 60; return (h ? h + ':' + two(m) : m) + ':' + two(s); }
+  function say(t) { var m = $('playerMsg'); m.textContent = t; m.classList.remove('hidden'); clearTimeout(msgTimer); msgTimer = setTimeout(function () { m.classList.add('hidden'); }, 3500); }
+  function playerOpen() { return !$('player').classList.contains('hidden'); }
+  function pbFocused() { var a = document.activeElement; return !!(a && a.classList && (a.classList.contains('pb') || a.classList.contains('pm'))); }
+  function updPlayBtn() { $('pbPlay').innerHTML = $('video').paused ? ICO_PLAY : ICO_PAUSE; }
+
+  function showOsd(focusPlay) {
+    $('osd').classList.remove('hidden'); updPlayBtn();
+    clearTimeout(osdTimer);
+    osdTimer = setTimeout(function () { if (!menu.open) hideOsd(); }, 6000);
+    if (focusPlay) $('pbPlay').focus();
+  }
+  function hideOsd() {
+    closeMenu(true); $('osd').classList.add('hidden');
+    if (pbFocused()) document.activeElement.blur();
+  }
+
+  function startPlay(url, title, live, list, index) {
+    lastFocus = document.activeElement;
+    play.live = live; play.list = list || null; play.index = index || 0; play.epI = null;
+    $('player').classList.remove('hidden');
+    load(url, title);
+  }
+  function load(url, title) {
+    var v = $('video');
+    play.url = url; play.master = url; play.triedTs = false; play.noRetry = isM3u(); play.title = title;
+    $('osd').classList.toggle('live', play.live);
+    $('osdTitle').textContent = title; $('osdFill').style.width = '0';
+    $('osdTime').textContent = play.live ? tr('liveLbl') : '';
+    showOsd(false);
+    v.src = url; v.play();
+  }
+  function closePlayer() {
+    if (!playerOpen()) return;
+    var v = $('video');
+    savePos(); hideOsd(); play.epI = null;
+    v.pause(); v.removeAttribute('src'); v.load();
+    $('player').classList.add('hidden');
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  function savePos() {
+    var v = $('video');
+    if (!play.live && v.duration && v.currentTime > 30 && v.currentTime < v.duration - 60) {
+      var p = store(K.pos) || {}; p[play.url] = v.currentTime;
+      var ks = Object.keys(p); if (ks.length > 200) delete p[ks[0]];
+      store(K.pos, p);
+    }
+  }
+  function zap(d) {
+    if (!play.live || !play.list) return;
+    var n = play.index + d; if (n < 0 || n >= play.list.length) return;
+    play.index = n; load(streamUrl(play.list[n]), play.list[n].name);
+  }
+  function seek(d) { var v = $('video'); if (!play.live) { v.currentTime = Math.max(0, v.currentTime + d); showOsd(false); } }
+  function togglePlay() { var v = $('video'); if (v.paused) v.play(); else v.pause(); }
+
+  function initVideo() {
+    var v = $('video');
+    v.addEventListener('timeupdate', function () {
+      if (!play.live && v.duration) {
+        $('osdFill').style.width = (v.currentTime / v.duration * 100) + '%';
+        $('osdTime').textContent = fmt(v.currentTime) + ' / ' + fmt(v.duration);
+      }
+    });
+    v.addEventListener('loadedmetadata', function () {
+      if (play.live) return;
+      var p = store(K.pos), tm = p && p[play.url];
+      if (tm) { v.currentTime = tm; say(tr('resume') + fmt(tm)); }
+    });
+    v.addEventListener('play', updPlayBtn); v.addEventListener('pause', updPlayBtn);
+    v.addEventListener('waiting', function () { say(tr('buffering')); });
+    v.addEventListener('playing', function () { $('playerMsg').classList.add('hidden'); });
+    v.addEventListener('ended', function () {
+      if (play.live) return;
+      var n = play.epI;
+      if (n != null && detail.curEps && n + 1 < detail.curEps.length) { play.epI = n + 1; load(epUrl(detail.curEps[n + 1]), epTitle(n + 1)); }
+      else closePlayer();
+    });
+    v.addEventListener('error', function () {
+      if (play.live && !play.noRetry && !play.triedTs && /\.m3u8$/.test(play.url)) {
+        play.triedTs = true; play.url = play.url.replace(/\.m3u8$/, '.ts'); play.master = play.url; v.src = play.url; v.play(); return;
+      }
+      say(tr('cantPlay'));
+    });
+  }
+
+  /* قوائم الجودة والصوت */
+  function openMenu(title, items, opener) {
+    menu.open = true; menu.items = items; menu.opener = opener;
+    var h = '<div class="pm-title">' + esc(title) + '</div>';
+    for (var i = 0; i < items.length; i++) h += '<button class="f pm' + (items[i].on ? ' on' : '') + '" data-i="' + i + '">' + esc(items[i].label) + '</button>';
+    var m = $('pmenu'); m.innerHTML = h; m.classList.remove('hidden');
+    clearTimeout(osdTimer);
+    var f = m.querySelector('.pm.on') || m.querySelector('.pm'); if (f) f.focus();
+  }
+  function closeMenu(noFocus) {
+    if (!menu.open) return;
+    menu.open = false; $('pmenu').classList.add('hidden');
+    if (!noFocus && menu.opener) menu.opener.focus();
+    showOsd(false);
+  }
+  function parseMaster(text, base) {
+    var lines = text.split(/?
+/), out = [], origin = (base.match(/^https?:\/\/[^\/]+/) || [''])[0], dir = base.replace(/[?#].*$/, '').replace(/[^\/]*$/, '');
+    for (var i = 0; i < lines.length; i++) {
+      if (lines[i].indexOf('#EXT-X-STREAM-INF') !== 0) continue;
+      var bw = (lines[i].match(/BANDWIDTH=(\d+)/) || [0, 0])[1], rs = lines[i].match(/RESOLUTION=(\d+)x(\d+)/), uri = '';
+      for (var j = i + 1; j < lines.length; j++) { if (lines[j] && lines[j].charAt(0) !== '#') { uri = lines[j].trim(); break; } }
+      if (!uri) continue;
+      var abs = /^https?:/i.test(uri) ? uri : (uri.charAt(0) === '/' ? origin + uri : dir + uri);
+      out.push({ bw: +bw, h: rs ? +rs[2] : 0, url: abs });
+    }
+    out.sort(function (a, b) { return a.bw - b.bw; });
+    return out;
+  }
+  function openQuality(btn) {
+    if (!play.live || !/\.m3u8/.test(play.master)) { say(tr('qualOnly')); return; }
+    say(tr('qualRead'));
+    xhr(play.master, 15000, true).then(function (r) {
+      var vs = parseMaster(r.text, r.url);
+      if (vs.length < 2) { say(tr('qualOne')); return; }
+      var v = $('video'), items = [{ label: tr('qualAuto'), url: play.master, on: play.url === play.master }];
+      for (var i = 0; i < vs.length; i++) {
+        var lb = (vs[i].h ? vs[i].h + 'p' : Math.round(vs[i].bw / 1000) + ' kbps') + (vs[i].bw ? '  (' + (vs[i].bw / 1e6).toFixed(1) + ' Mbps)' : '');
+        if (i === 0) lb += '  ' + tr('qLow'); if (i === vs.length - 1) lb += '  ' + tr('qHigh');
+        items.push({ label: lb, url: vs[i].url, on: play.url === vs[i].url });
+      }
+      items.forEach(function (it) { it.run = function () { play.url = it.url; v.src = it.url; v.play(); say(tr('qDone')); }; });
+      openMenu(tr('qTitle'), items, btn);
+    }).catch(function () { say(tr('qFail')); });
+  }
+  function openAudio(btn) {
+    var at = $('video').audioTracks;
+    if (!at || at.length < 2) { say(tr('noAudio')); return; }
+    var items = [];
+    for (var i = 0; i < at.length; i++) (function (i) {
+      var t = at[i], lb = t.label || t.language || (tr('track') + ' ' + (i + 1));
+      if (t.label && t.language) lb += '  (' + t.language + ')';
+      items.push({ label: lb, on: !!t.enabled, run: function () { for (var j = 0; j < at.length; j++) at[j].enabled = (j === i); say(tr('audioDone')); } });
+    })(i);
+    openMenu(tr('audioTitle'), items, btn);
+  }
+  function pbAction(act, btn) {
+    if (act === 'rew') seek(-10);
+    else if (act === 'fwd') seek(30);
+    else if (act === 'play') { togglePlay(); showOsd(false); }
+    else if (act === 'stop' || act === 'back') closePlayer();
+    else if (act === 'quality') openQuality(btn);
+    else if (act === 'audio') openAudio(btn);
+  }
+
+  function playerKey(k, e) {
+    var v = $('video');
+    if (menu.open || pbFocused()) {
+      if (k === 37) { e.preventDefault(); showOsd(false); if (!menu.open) move('left'); }
+      else if (k === 39) { e.preventDefault(); showOsd(false); if (!menu.open) move('right'); }
+      else if (k === 38) { e.preventDefault(); move('up'); }
+      else if (k === 40) { e.preventDefault(); move('down'); }
+      else if (k === 415) { e.preventDefault(); v.play(); }
+      else if (k === 19) { e.preventDefault(); v.pause(); }
+      else if (k === 413) { e.preventDefault(); closePlayer(); }
+      return; // Enter يعمل كضغطة على الزر
+    }
+    e.preventDefault();
+    if (k === 13) showOsd(true);
+    else if (k === 415 || k === 179) { togglePlay(); showOsd(false); }
+    else if (k === 19) { v.pause(); showOsd(false); }
+    else if (k === 413) closePlayer();
+    else if (k === 39 || k === 417) seek(30);
+    else if (k === 37 || k === 412) seek(-10);
+    else if (k === 38 || k === 427) { if (play.live) zap(-1); else showOsd(true); }
+    else if (k === 40 || k === 428) { if (play.live) zap(1); else showOsd(true); }
+  }
+
+  /* ---------- شريط السرعة ---------- */
+  var sp = { b: 0, t: 0, down: null, up: null, probing: false, upT: 0 };
+  function updSpeed() {
+    var d = nowDate(); $('tbClock').textContent = fmtClock(d);
+    var v = $('video'), txt = '—';
+    if (playerOpen() && !v.paused && !v.ended) {
+      var b = (v.webkitVideoDecodedByteCount || 0) + (v.webkitAudioDecodedByteCount || 0), now = Date.now();
+      if (b > 0 && sp.t && b >= sp.b) { sp.down = (b - sp.b) * 8 / 1e6 / ((now - sp.t) / 1000); }
+      else if (b === 0 && navigator.connection && navigator.connection.downlink) { sp.down = navigator.connection.downlink; }
+      sp.b = b; sp.t = now;
+      if (sp.down != null) txt = sp.down.toFixed(1) + ' Mbps';
+    } else { sp.t = 0; sp.b = 0; }
+    $('spDown').innerHTML = '&#9660; ' + txt;
+    $('spUp').innerHTML = '&#9650; ' + (sp.up != null ? sp.up.toFixed(1) + ' Mbps' : '—');
+    if (cfg && !isM3u() && !sp.probing && Date.now() - sp.upT > 30000) probeUp();
+  }
+  function probeUp() {
+    sp.probing = true; sp.upT = Date.now();
+    try {
+      var size = 262144, buf = new Uint8Array(size), x = new XMLHttpRequest(), t0 = Date.now();
+      x.open('POST', cfg.host + '/', true); x.timeout = 15000;
+      x.setRequestHeader('Content-Type', 'application/octet-stream');
+      x.upload.onload = function () { var dt = (Date.now() - t0) / 1000; if (dt > 0.02) sp.up = size * 8 / 1e6 / dt; };
+      x.onloadend = function () { sp.probing = false; };
+      x.send(buf);
+    } catch (e) { sp.probing = false; }
+  }
+
+  /* ---------- التنقل بالريموت ---------- */
+  function focusables() {
+    var root;
+    if (exitOpen()) root = $('exitdlg');
+    else if (playerOpen()) root = menu.open ? $('pmenu') : $('osd');
+    else if (dd.open) root = $('ddmenu');
+    else if (detailOpen()) root = $('detail');
+    else if (!$('settings').classList.contains('hidden')) root = $('settings');
+    else if (!$('main').classList.contains('hidden')) root = $('main');
+    else if (!$('home').classList.contains('hidden')) root = $('home');
+    else root = $('login');
+    var all = root.querySelectorAll('.f'), out = [];
+    for (var i = 0; i < all.length; i++) if (all[i].offsetWidth > 0) out.push(all[i]);
+    return out;
+  }
+  function move(dir) {
+    var cur = document.activeElement, list = focusables();
+    if (!cur || !cur.classList || !cur.classList.contains('f')) { if (list[0]) { list[0].focus(); tick(); } return; }
+    var r = cur.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + r.height / 2, best = null, bs = 1e9;
+    for (var i = 0; i < list.length; i++) {
+      var el = list[i]; if (el === cur) continue;
+      var b = el.getBoundingClientRect(), x = b.left + b.width / 2, y = b.top + b.height / 2, dx = x - cx, dy = y - cy, main, cross;
+      if (dir === 'left') { if (dx >= -2 || b.right > r.left + 4) continue; main = -dx; cross = Math.abs(dy); }
+      else if (dir === 'right') { if (dx <= 2 || b.left < r.right - 4) continue; main = dx; cross = Math.abs(dy); }
+      else if (dir === 'up') { if (dy >= -2) continue; main = -dy; cross = Math.abs(dx); }
+      else { if (dy <= 2) continue; main = dy; cross = Math.abs(dx); }
+      var sc = main + cross * 2.5;
+      if (sc < bs) { bs = sc; best = el; }
+    }
+    if (best) { best.focus(); if (best.scrollIntoView) best.scrollIntoView({ block: 'nearest' }); tick(); }
+  }
+
+  /* الرجوع */
+  var lastBack = 0;
+  function goBack() {
+    lastBack = Date.now();
+    if (exitOpen()) { hideExit(); return; }
+    var ae = document.activeElement;
+    if (playerOpen()) {
+      if (menu.open) closeMenu(false);
+      else if (pbFocused()) hideOsd();
+      else closePlayer();
+      return;
+    }
+    if (dd.open) { closeDd(false); return; }
+    if (detailOpen()) { closeDetail(); return; }
+    if (!$('settings').classList.contains('hidden')) { closeSettings(); return; }
+    if (!$('login').classList.contains('hidden')) {
+      if (ae && ae.tagName === 'INPUT') { $('btnLogin').focus(); return; }
+      if (cfg) { showHome(); return; }
+      showExit(); return;
+    }
+    if (!$('main').classList.contains('hidden')) { showHome(); return; }
+    showExit();
+  }
+  function exitOpen() { return $('exitdlg').classList.contains('show'); }
+  var exitFocus = null;
+  function showExit() {
+    if (exitOpen()) return;
+    exitFocus = document.activeElement;
+    $('exitdlg').classList.add('show'); $('btnExitNo').focus();
+    setTimeout(function () { if (exitOpen()) $('btnExitNo').focus(); }, 60);
+  }
+  function hideExit() {
+    $('exitdlg').classList.remove('show');
+    if (exitFocus && exitFocus.focus) exitFocus.focus();
+  }
+  function exitApp() {
+    window.close();
+  }
+  document.addEventListener('keydown', function (e) {
+    var k = e.keyCode;
+    if (splashOn) { e.preventDefault(); return; }
+    if (exitOpen()) {
+      if (k === 461 || k === 27) { e.preventDefault(); hideExit(); }
+      else if (k === 37) { e.preventDefault(); move('left'); }
+      else if (k === 39) { e.preventDefault(); move('right'); }
+      return;
+    }
+    if (k === 461 || k === 27) {
+      e.preventDefault(); goBack(); return;
+    }
+    if (playerOpen()) { playerKey(k, e); return; }
+    if (k === 37) { e.preventDefault(); move('left'); }
+    else if (k === 39) { e.preventDefault(); move('right'); }
+    else if (k === 38) { e.preventDefault(); move('up'); }
+    else if (k === 40) { e.preventDefault(); move('down'); }
+    else if (k === 403) quickFav();
+    else if (k === 13 && document.activeElement && document.activeElement.id === 'search') doSearch();
+  });
+
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    while (t && t !== document && !(t.classList && t.classList.contains('f'))) t = t.parentNode;
+    if (!t || t === document) return;
+    var c = t.classList;
+    if (c.contains('pb')) pbAction(t.getAttribute('data-act'), t);
+    else if (c.contains('pm')) { var it = menu.items[+t.getAttribute('data-i')]; closeMenu(false); if (it && it.run) it.run(); }
+    else if (c.contains('cat')) { $('search').value = ''; openCat(t.getAttribute('data-id'), true); }
+    else if (c.contains('tab')) setType(t.getAttribute('data-type'), false);
+    else if (c.contains('tile')) enterSection(t.getAttribute('data-type'));
+    else if (c.contains('more')) renderMore();
+    else if (c.contains('ddi')) { var di = dd.items[+t.getAttribute('data-d')]; closeDd(true); if (di && di.run) di.run(); }
+    else if (t.hasAttribute('data-i')) onItem(+t.getAttribute('data-i'));
+    else if (t.hasAttribute('data-ep')) playEp(+t.getAttribute('data-ep'));
+    else if (t.hasAttribute('data-lang')) { LANG = t.getAttribute('data-lang'); store('elhana.lang', LANG); applyLang(); updSettings(); }
+    else if (t.hasAttribute('data-tf')) { timeFmt = t.getAttribute('data-tf'); store(K.tf, timeFmt); updSpeed(); updSettings(); }
+    else if (t.hasAttribute('data-col')) { speedCol = t.getAttribute('data-col'); store(K.col, speedCol); applyBarColor(); updSettings(); }
+    else if (t.id === 'btnTimeSync') syncTime(true);
+    else if (t.id === 'btnTimeReset') resetTimeOffset();
+    else if (t.id === 'btnTest') runSpeedTest();
+    else if (t.id === 'btnUpd') checkUpdate(true);
+    else if (t.id === 'btnUpdReset') resetUpdate();
+    else if (t.id === 'btnSettings') showSettings();
+    else if (t.id === 'btnSetBack') closeSettings();
+    else if (t.id === 'btnLoginBack') showHome();
+    else if (t.id === 'btnDBack') closeDetail();
+    else if (t.id === 'btnDPlay') playDetail();
+    else if (t.id === 'btnDFav') toggleDetailFav();
+    else if (t.id === 'btnDSeason') openSeasonMenu();
+    else if (t.hasAttribute('data-a')) { var a = accounts()[+t.getAttribute('data-a')]; if (a) attempt(a, true); }
+    else if (t.hasAttribute('data-del')) {
+      var arr = accounts(); arr.splice(+t.getAttribute('data-del'), 1); store(K.acc, arr); renderSaved();
+      var nf = $('saved').querySelector('.f') || $('inName'); nf.focus();
+    }
+    else if (t.id === 'btnModeX') setLoginMode('xtream');
+    else if (t.id === 'btnModeM') setLoginMode('m3u');
+    else if (t.id === 'btnLogin') doLogin();
+    else if (t.id === 'btnExitYes') exitApp();
+    else if (t.id === 'btnExitNo') hideExit();
+    else if (c.contains('langbtn')) { LANG = LANG === 'ar' ? 'en' : 'ar'; store('elhana.lang', LANG); applyLang(); if (!$('home').classList.contains('hidden')) showHome(); }
+    else if (t.id === 'btnLogout2') openAccounts();
+    else if (t.id === 'btnHome') showHome();
+    else if (t.id === 'btnCats') { toggleCats(); var g = $('grid').querySelector('.f'); if (g && $('main').classList.contains('nocats')) g.focus(); }
+    else if (t.id === 'btnSound') { soundOn = !soundOn; store(K.snd, soundOn); updSoundBtn(); if (soundOn) tick(); }
+  });
+
+  /* Magic Remote pointer: hovering focuses the control under the pointer */
+  document.addEventListener('mouseover', function (e) {
+    var x = e.target;
+    while (x && x !== document && !(x.classList && x.classList.contains('f'))) x = x.parentNode;
+    if (x && x !== document && x.tagName !== 'INPUT' && document.activeElement !== x) x.focus();
+  });
+  window.addEventListener('offline', function () { toast(tr('offline'), 6000); });
+  window.addEventListener('online', function () { toast(tr('online'), 4000); syncTime(false); });
+
+  /* ---------- بدء ---------- */
+  try { localStorage.removeItem('elhana.otabase'); } catch (e) {}
+  initVideo(); toggleCats(store(K.cats) === true); applyLang(); applyBarColor(); startSplash(); setTimeout(function () { syncTime(false); }, 2000); setTimeout(autoUpdate, 8000);
+  setInterval(updSpeed, 1000); updSpeed();
+  (function () {
+    var old = store('aliiptv.cfg');
+    if (old && old.host && !accounts().length) { store(K.acc, [{ name: tr('myacct'), host: old.host, user: old.user, pass: old.pass }]); store(K.cur, 0); }
+    var a = accounts(), cur = store(K.cur);
+    if (typeof cur === 'number' && cur >= 0 && a[cur]) { attempt(a[cur], false); }
+    else { renderSaved(); (($('saved').querySelector('.f')) || $('inName')).focus(); }
+  })();
+  try { localStorage.removeItem('elhana.otaTry'); } catch (e) {}
+  window.EH_OK = true;
+})();

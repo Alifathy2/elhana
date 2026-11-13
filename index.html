@@ -8,30 +8,41 @@
 </head>
 <body>
 
-<div id="splash"><img src="logo.png" alt=""><div>El Hana IPTV</div></div>
-
 <div id="topbar">
   <span id="tbClock"></span>
   <span id="tbSpeed"><span id="spDown">&#9660; —</span><span id="spUp">&#9650; —</span></span>
 </div>
 
-<!-- Login -->
-<section id="login" class="screen">
+<!-- Add account (Xtream / M3U) -->
+<section id="login" class="screen hidden">
+  <button class="f btn small backbtn" id="btnBackLogin" data-i18n="back"></button>
   <div class="login-box">
     <img class="logo-big" src="logo.png" alt="El Hana IPTV">
-    <div id="saved"></div>
-    <div class="modes"><button class="f btn small on" id="btnModeX" data-i18n="modeX"></button><button class="f btn small" id="btnModeM" data-i18n="modeM"></button></div>
+    <div class="typesw">
+      <button class="f opt on" data-ltype="xtream">Xtream Codes</button>
+      <button class="f opt" data-ltype="m3u">M3U</button>
+    </div>
     <input class="f" id="inName" data-i18n-ph="name_ph">
-    <input class="f" id="inHost" data-i18n-ph="host_ph" dir="ltr">
-    <input class="f" id="inUser" data-i18n-ph="user_ph" dir="ltr">
-    <input class="f" id="inPass" data-i18n-ph="pass_ph" dir="ltr">
-    <input class="f hidden" id="inM3u" data-i18n-ph="m3u_ph" dir="ltr">
-    <button class="f btn" id="btnLogin" data-i18n="login"></button>
+    <input class="f xt" id="inHost" data-i18n-ph="host_ph" dir="ltr">
+    <input class="f xt" id="inUser" data-i18n-ph="user_ph" dir="ltr">
+    <input class="f xt" id="inPass" data-i18n-ph="pass_ph" dir="ltr">
+    <input class="f m3 hidden" id="inUrl" data-i18n-ph="m3u_ph" dir="ltr">
+    <button class="f btn" id="btnLogin" data-i18n="addSignIn"></button>
     <p id="loginMsg" class="msg"></p>
     <p class="disc" data-i18n="disc"></p>
   </div>
   <button class="f btn small langbtn lang-login"></button>
-  <button class="f btn small hidden" id="btnLoginBack" data-i18n="back"></button>
+</section>
+
+<!-- Accounts list -->
+<section id="accounts" class="screen hidden">
+  <button class="f btn small backbtn" id="btnBackAcc" data-i18n="back"></button>
+  <div class="acc-wrap">
+    <h2 data-i18n="accountsT"></h2>
+    <div id="accList"></div>
+    <button class="f btn" id="btnAddAcc" data-i18n="addAcc"></button>
+    <p id="accMsg" class="msg"></p>
+  </div>
 </section>
 
 <!-- Home -->
@@ -42,25 +53,34 @@
   </div>
   <div class="tiles">
     <button class="f tile t-live" data-type="live">
-      <svg viewBox="0 0 64 64" width="170" height="170" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="14" width="52" height="34" rx="5"/><path d="M22 56h20M32 48v8M24 6l8 8 8-8"/><circle cx="32" cy="31" r="3" fill="#fff"/><path d="M24 23a11 11 0 0 0 0 16M40 23a11 11 0 0 1 0 16"/></svg>
+      <svg viewBox="0 0 64 64" width="150" height="150" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="14" width="52" height="34" rx="5"/><path d="M22 56h20M32 48v8M24 6l8 8 8-8"/><circle cx="32" cy="31" r="3" fill="#fff"/><path d="M24 23a11 11 0 0 0 0 16M40 23a11 11 0 0 1 0 16"/></svg>
       <span data-i18n="live"></span>
     </button>
     <button class="f tile t-movies" data-type="movies">
-      <svg viewBox="0 0 64 64" width="170" height="170" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="24" width="52" height="32" rx="4"/><path d="M6 24l6-12 12 6-6 12M26 18l12 6-6-12 12 6 6 6M6 36h52"/><path d="M28 42l10 6-10 6z" fill="#fff"/></svg>
+      <svg viewBox="0 0 64 64" width="150" height="150" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="24" width="52" height="32" rx="4"/><path d="M6 24l6-12 12 6-6 12M26 18l12 6-6-12 12 6 6 6M6 36h52"/><path d="M28 42l10 6-10 6z" fill="#fff"/></svg>
       <span data-i18n="movies"></span>
     </button>
     <button class="f tile t-series" data-type="series">
-      <svg viewBox="0 0 64 64" width="170" height="170" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="18" width="44" height="34" rx="5"/><path d="M8 44V14a4 4 0 0 1 4-4h34"/><path d="M30 28l12 7-12 7z" fill="#fff"/></svg>
+      <svg viewBox="0 0 64 64" width="150" height="150" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="18" width="44" height="34" rx="5"/><path d="M8 44V14a4 4 0 0 1 4-4h34"/><path d="M30 28l12 7-12 7z" fill="#fff"/></svg>
       <span data-i18n="series"></span>
     </button>
     <button class="f tile t-fav" data-type="fav">
-      <svg viewBox="0 0 64 64" width="170" height="170" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 54C10 38 6 24 12 16c6-8 16-6 20 2 4-8 14-10 20-2 6 8 2 22-20 38z" fill="#fff" fill-opacity=".25"/></svg>
-      <span data-i18n="fav"></span>
+      <svg viewBox="0 0 64 64" width="150" height="150" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 56S8 41 8 24a12 12 0 0 1 24-4 12 12 0 0 1 24 4c0 17-24 32-24 32z"/></svg>
+      <span data-i18n="favorites"></span>
     </button>
   </div>
   <div class="home-bottom">
     <button class="f btn small" id="btnSettings" data-i18n="settings"></button>
     <button class="f btn small" id="btnLogout2" data-i18n="switchAcct"></button>
+  </div>
+</section>
+
+<!-- Settings -->
+<section id="settings" class="screen hidden">
+  <button class="f btn small backbtn" id="btnBackSet" data-i18n="back"></button>
+  <div class="set-wrap">
+    <div id="setSecs" class="setsecs"></div>
+    <div id="setPanel" class="setpanel"></div>
   </div>
 </section>
 
@@ -72,7 +92,7 @@
       <button class="f tab" data-type="live" data-i18n="live"></button>
       <button class="f tab" data-type="movies" data-i18n="movies"></button>
       <button class="f tab" data-type="series" data-i18n="series"></button>
-      <button class="f tab" data-type="fav" data-i18n="fav"></button>
+      <button class="f tab" data-type="fav">&#9829; <span data-i18n="favorites"></span></button>
     </nav>
     <div class="head-tools">
       <input class="f" id="search" data-i18n-ph="search_ph">
@@ -82,72 +102,30 @@
   <div class="body">
     <aside id="cats"></aside>
     <main id="content">
-      <div id="crumb" class="crumb"></div>
+      <div class="crumbrow"><div id="crumb" class="crumb"></div><div id="favhint" class="favhint" data-i18n="favHint"></div></div>
       <div id="grid"></div>
     </main>
   </div>
-  <div id="loading" class="loading hidden" data-i18n="loading"></div>
 </section>
 
-<!-- Detail -->
+<!-- Details page -->
 <section id="detail" class="screen hidden">
-  <div class="d-wrap">
-    <div class="d-poster" id="dPoster"><span class="ph" id="dPh"></span><img id="dImg" alt=""></div>
-    <div class="d-info">
-      <div class="d-top"><button class="f btn small" id="btnDBack" data-i18n="back"></button></div>
-      <h1 id="dTitle"></h1>
-      <div id="dMeta" class="d-meta"></div>
-      <div id="dPlot" class="d-plot"></div>
-      <div id="dExtra" class="d-extra"></div>
-      <div class="d-btns">
-        <button class="f btn" id="btnDPlay" data-i18n="play"></button>
-        <button class="f btn small" id="btnDFav"></button>
-        <button class="f btn small hidden" id="btnDSeason"></button>
+  <button class="f btn small backbtn" id="btnBackDet" data-i18n="back"></button>
+  <div class="det">
+    <div class="det-poster" id="detPoster"></div>
+    <div class="det-info">
+      <h1 id="detTitle"></h1>
+      <div id="detMeta" class="det-meta"></div>
+      <p id="detPlot" class="det-plot"></p>
+      <div id="detExtra" class="det-extra"></div>
+      <div class="det-btns">
+        <button class="f btn" id="btnPlay"></button>
+        <button class="f btn small" id="btnFav"></button>
+        <button class="f btn small hidden" id="btnSeason"></button>
       </div>
-      <div id="dEps" class="d-eps hidden"></div>
     </div>
   </div>
-  <div id="ddmenu" class="ddmenu hidden"></div>
-</section>
-
-<!-- Settings -->
-<section id="settings" class="screen hidden">
-  <div class="set-top"><button class="f btn small" id="btnSetBack" data-i18n="back"></button><h2 data-i18n="settings"></h2></div>
-  <div class="set-body">
-    <div class="set-sec"><h3 data-i18n="setLang"></h3><div class="set-row">
-      <button class="f btn small opt" data-lang="ar">العربية</button>
-      <button class="f btn small opt" data-lang="en">English</button>
-    </div></div>
-    <div class="set-sec"><h3 data-i18n="setTime"></h3><div class="set-row">
-      <button class="f btn small opt" data-tf="24" data-i18n="tf24"></button>
-      <button class="f btn small opt" data-tf="12" data-i18n="tf12"></button>
-      <button class="f btn small" id="btnTimeSync" data-i18n="timeSync"></button>
-      <button class="f btn small" id="btnTimeReset" data-i18n="timeReset"></button>
-    </div>
-    <div id="timeSyncMsg" class="upd-msg"></div></div>
-    <div class="set-sec"><h3 data-i18n="setColor"></h3><div class="set-row">
-      <button class="f btn small opt" data-col="#ffffff"><span class="dot" style="background:#ffffff"></span><span data-i18n="c_white"></span></button>
-      <button class="f btn small opt" data-col="#000000"><span class="dot" style="background:#000000"></span><span data-i18n="c_black"></span></button>
-      <button class="f btn small opt" data-col="#ffd400"><span class="dot" style="background:#ffd400"></span><span data-i18n="c_yellow"></span></button>
-      <button class="f btn small opt" data-col="#3ddc84"><span class="dot" style="background:#3ddc84"></span><span data-i18n="c_green"></span></button>
-      <button class="f btn small opt" data-col="#ff4d4d"><span class="dot" style="background:#ff4d4d"></span><span data-i18n="c_red"></span></button>
-      <button class="f btn small opt" data-col="#4da3ff"><span class="dot" style="background:#4da3ff"></span><span data-i18n="c_blue"></span></button>
-      <button class="f btn small opt" data-col="#ff9a3d"><span class="dot" style="background:#ff9a3d"></span><span data-i18n="c_orange"></span></button>
-    </div></div>
-    <div class="set-sec"><h3 data-i18n="setSound"></h3><div class="set-row">
-      <button class="f btn small" id="btnSound"></button>
-    </div></div>
-    <div class="set-sec"><h3 data-i18n="setUpd"></h3><div class="set-row">
-      <span id="updVer" class="upd-ver"></span>
-      <button class="f btn small" id="btnUpd" data-i18n="updCheck"></button>
-      <button class="f btn small" id="btnUpdReset" data-i18n="updReset"></button>
-    </div>
-    <div id="updMsg" class="upd-msg"></div></div>
-    <div class="set-sec"><h3 data-i18n="setTest"></h3><div class="set-row">
-      <button class="f btn small" id="btnTest" data-i18n="startTest"></button>
-      <div id="testRes"></div>
-    </div></div>
-  </div>
+  <div id="detEps" class="det-eps"></div>
 </section>
 
 <!-- Player -->
@@ -158,8 +136,7 @@
     <div class="vodonly"><div id="osdBar"><div id="osdFill"></div></div></div>
     <div id="osdTime"></div>
     <div class="pbar">
-      <button class="f pb txt" data-act="back">
-        <svg viewBox="0 0 24 24" width="36" height="36" fill="#fff"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/></svg><span data-i18n="back" style="margin:0 10px"></span></button>
+      <button class="f pb txt" data-act="back">&#8592; <span data-i18n="back"></span></button>
       <button class="f pb vodonly" data-act="rew" data-i18n-title="rew">
         <svg viewBox="0 0 24 24" width="40" height="40" fill="#fff"><path d="M11 6v12l-8.5-6zM21 6v12l-8.5-6z"/></svg><small>10</small></button>
       <button class="f pb" id="pbPlay" data-act="play"></button>
@@ -176,17 +153,25 @@
   <div id="playerMsg" class="player-msg hidden"></div>
 </section>
 
+<div id="ddmenu" class="pmenu dd hidden"></div>
+<div id="loading" class="loading hidden" data-i18n="loading"></div>
 <div id="toast" class="toast hidden"></div>
 
-<!-- Exit confirmation -->
-<div id="exitdlg" class="modal">
+<!-- Exit confirmation (slides up) -->
+<div id="exitdlg" class="modal hidden">
   <div class="modal-box">
     <div class="modal-t" data-i18n="exitQ"></div>
     <div class="modal-b">
-      <button class="f btn" id="btnExitYes" data-i18n="yes"></button>
-      <button class="f btn small" id="btnExitNo" data-i18n="no"></button>
+      <button class="f btn small" id="btnExitNo" data-i18n="cancel"></button>
+      <button class="f btn" id="btnExitYes" data-i18n="ok"></button>
     </div>
   </div>
+</div>
+
+<!-- Welcome / splash (3 seconds) -->
+<div id="splash">
+  <img src="logo.png" alt="El Hana IPTV">
+  <div class="splash-name">El Hana IPTV</div>
 </div>
 
 <script src="ota.js"></script>

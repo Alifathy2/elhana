@@ -48,7 +48,13 @@
 <!-- Home -->
 <section id="home" class="screen hidden">
   <div class="home-top">
-    <div class="brand"><img src="logo.png" alt=""><div class="brand-txt"><span class="brand-main">El Hana</span><span class="brand-sub">IPTV</span></div></div>
+    <div class="brand">
+      <div class="brand-logo-wrap"><img src="logo.png" alt=""></div>
+      <div class="brand-txt">
+        <div class="brand-row"><span class="brand-main">EL HANA</span><span class="brand-sub">IPTV</span></div>
+        <span class="brand-tag">4K ULTRA STREAMING</span>
+      </div>
+    </div>
     <div class="home-widget" id="homeWidget">
       <div class="hw-time" id="hwTime">--:--</div>
       <div class="hw-mid">
@@ -133,6 +139,7 @@
       <h1 id="detTitle"></h1>
       <div class="det-meta-row"><div id="detMeta" class="det-meta"></div><div id="detImdb" class="imdb-pill hidden"></div></div>
       <p id="detPlot" class="det-plot"></p>
+      <div id="detPraise" class="det-praise hidden"></div>
       <div id="detExtra" class="det-extra"></div>
       <div class="det-btns">
         <button class="f btn" id="btnPlay"></button>
@@ -193,6 +200,31 @@
     <div class="modal-b" style="margin-top:28px">
       <button class="f btn" id="btnTermsAccept" style="width:340px" data-i18n="termsAccept"></button>
       <button class="f btn small" id="btnTermsDecline" style="width:220px" data-i18n="termsDecline"></button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Custom Background Modal (Phone Upload + Local File + URL) -->
+<div id="bgdlg" class="modal hidden">
+  <div class="modal-box bg-modal-box">
+    <h2 class="terms-title" data-i18n="bgModalTitle"></h2>
+    <div class="bg-modal-grid">
+      <div class="bg-col">
+        <div class="bg-step-t" data-i18n="bgPhoneTitle"></div>
+        <p class="bg-step-d" data-i18n="bgPhoneDesc"></p>
+        <div id="bgQrWrap" class="bg-qr-wrap"></div>
+      </div>
+      <div class="bg-col">
+        <div class="bg-step-t" data-i18n="bgDirectTitle"></div>
+        <button class="f btn" id="btnBgLocalFile" style="width:100%;margin-bottom:16px" data-i18n="bgPickDevice"></button>
+        <input class="f" id="inBgUrl" data-i18n-ph="bgUrlPh" dir="ltr" style="width:100%;padding:14px 20px;margin-bottom:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15)">
+        <button class="f btn small" id="btnBgApplyUrl" style="width:100%;margin-bottom:14px" data-i18n="bgApplyUrlBtn"></button>
+        <button class="f btn small" id="btnBgResetModal" style="width:100%;background:rgba(255,77,109,.2)" data-i18n="bgResetBtn"></button>
+      </div>
+    </div>
+    <div class="modal-b" style="margin-top:24px">
+      <button class="f btn small" id="btnBgClose" style="width:240px" data-i18n="back"></button>
     </div>
   </div>
 </div>
